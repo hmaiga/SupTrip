@@ -1,0 +1,82 @@
+* {
+	font-family : 'Open Sans';
+}
+.header a {
+	text-decoration: none;
+	color : white;
+	margin-right : 20px;
+}
+
+.header a:hover  {
+	
+	color : orange;
+}
+
+input[type='text'] {
+	padding : 8px 15px;
+	display : block;
+	margin : 10px 0;
+}
+.item {
+	
+	margin 			: 10px;
+	padding 		: 10px;
+	display 		: inline-block;
+	border 			: solid 1px grey;
+	border-radius 	: 5px;
+}
+.item .label {
+	font-weight: 300;
+	color : grey;
+}
+.item .values, 
+.separator {
+	margin-bottom : 10px;
+}
+.separator {
+	border-top : solid 1px grey;
+	
+	width : 100%;
+}
+.header {
+	width 		: 100%; 
+	background 	: grey; 
+	padding 	: 10px;	
+}
+.footer {
+	border-top 	: solid 1px grey; 
+	width		:100%; 
+	margin-top 	: 40px;
+}
+.footer > div {
+	text-align : center; 
+	margin-top : 5px;
+}
+
+.form {
+	margin-top : 40px;
+}
+
+.addButton, .backButton , .deleteButton {
+	border 			: none;
+	display 		: inline-block;
+	padding 		: 8px 16px;
+	border-radius 	: 2px;
+	color 			: white;
+	text-decoration	: none;
+	cursor			: pointer;
+}
+.choices {
+	font-size : 13px;
+}
+.backButton {
+	background : grey;
+}
+
+.addButton {
+	background : green;
+}
+
+.deleteButton {
+	background : red;
+}
