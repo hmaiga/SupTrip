@@ -17,6 +17,7 @@
 		<c:choose>
 			<c:when test="${empty sessionScope.userNameSession}">
 				<a href="${pageContext.request.contextPath}/login">LOGIN</a>
+				<a href="${pageContext.request.contextPath}/register">REGISTER</a>
 			</c:when>
 			<c:otherwise>
 				<a href="${pageContext.request.contextPath}/logout">LOGOUT</a>

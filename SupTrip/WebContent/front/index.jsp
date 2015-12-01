@@ -4,8 +4,7 @@
 <div class="content-site">
 <!-- Contenu du site a inserer ici -->
 
-fouss la pute
-
+je suis la page index.
 </div>
 <!-- Fin contenu site -->
 

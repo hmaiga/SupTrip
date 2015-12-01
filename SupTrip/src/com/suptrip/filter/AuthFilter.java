@@ -29,16 +29,13 @@ public class AuthFilter implements Filter {
 		javax.servlet.http.HttpServletRequest 	req = (javax.servlet.http.HttpServletRequest) request;
 		javax.servlet.http.HttpServletResponse res = (javax.servlet.http.HttpServletResponse) response;
 		
-		// On r�cupere le nom d'utilisateur qu'on a mis en session lors du login
 		String userName = (String) req.getSession().getAttribute("userNameSession");
 		
-		// Si le nom d'utilisateur est null, c'est que l'utilisateur ne s'est pas loggut donc on le redirige vers la racine du projet
 		if (userName == null) {
 			res.sendRedirect(req.getContextPath() + "/");
 			return;
 		}
 
-		// pass the request along the filter chain
 		chain.doFilter(request, response);
 	}
 
