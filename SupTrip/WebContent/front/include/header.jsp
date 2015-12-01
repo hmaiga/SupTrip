@@ -12,17 +12,14 @@
 	<body>
 	
 	<div class="header">
-		<a href="${pageContext.request.contextPath}/">LISTE DES PRODUITS</a>
-		<a href="${pageContext.request.contextPath}/">LISTE DES CATEGORIES</a>
-		<a href="${pageContext.request.contextPath}/">AJOUTER UN PRODUIT</a>
-		<a href="${pageContext.request.contextPath}/">AJOUTER UNE CATEGORIE</a>
+		<a href="${pageContext.request.contextPath}/">STATISTIQUE</a>
 		
 		<c:choose>
 			<c:when test="${empty sessionScope.userNameSession}">
-				<a href="${pageContext.request.contextPath}/">LOGIN</a>
+				<a href="${pageContext.request.contextPath}/login">LOGIN</a>
 			</c:when>
 			<c:otherwise>
-				<a href="${pageContext.request.contextPath}/">LOGOUT (${sessionScope.userNameSession})</a>
+				<a href="${pageContext.request.contextPath}/logout">LOGOUT</a>
 			</c:otherwise>
 		</c:choose>
 	</div>
