@@ -6,5 +6,6 @@
 
 <p>ceci est ma page d'acceuil</p>
 
+<p>à modifier</p>
 
 <c:import url="/Views/Shared/Footer.jsp"/>
