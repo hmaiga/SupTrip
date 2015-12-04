@@ -1,5 +1,6 @@
 package com.suptrip.models;
 
+
 public class Order {
 	
 	private Long id;
