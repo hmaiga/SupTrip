@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>Insert title here</title>
+		<title>SupTrip</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		</head>
@@ -15,9 +15,9 @@
 				<div>
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a>
-						<li class="active"><a href="#">Liste des voyages</a>
-						<li class="active"><a href="#">S'enrégistrer</a>
-						<li class="active"><a href="#">S'authentifier</a>
+						<li class="active"><a href="#">List trips</a>
+						<li class="active"><a href="#">Sign in</a>
+						<li class="active"><a href="#">Login</a>
 					</ul>
 				</div>
 			</div>
