@@ -6,6 +6,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Views/media/css/main.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		</head>
 	<body>
