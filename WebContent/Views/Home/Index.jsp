@@ -65,14 +65,21 @@
   <div class="col-sm-3 stats">
   	<div class="panel panel-default">
   		<!-- Default panel contents -->
-  		<div class="panel-heading"><h4>Statistiques</h4></div>
-  		<div class="panel-body">
-    	<p>...</p>
-  	</div>
+  		<div class="panel-heading">
+  			<h4>Statistiques</h4>
+  		</div>
 
- 	<!-- Table -->
-  	<table class="table">
-  	</table>
+ 		<!-- Table -->
+  		<table class="table">
+  			<tr>
+       			<td>Liste de voyage :</td>
+       			<td>10</td>
+   			</tr>
+   			<tr>
+       			<td>Nombre d'utilisateur :</td>
+       			<td>8</td>
+   			</tr> 		
+  		</table>
 	</div>
   </div>
 </div>

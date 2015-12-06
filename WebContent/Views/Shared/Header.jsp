@@ -13,6 +13,14 @@
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-brand" href="#">Suptrip</div>
+				
+					<form class="navbar-form navbar-left" role="search">
+					  <div class="form-group">
+					    <input type="text" class="form-control" placeholder="Recherchez un voyage">
+					  </div>
+					  <button type="submit" class="btn btn-primary">Rechercher</button>
+					</form>
+  				
 				<div>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">Home</a>
