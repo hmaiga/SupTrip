@@ -54,7 +54,7 @@
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <div class="caption">
-        <h3>Toulouse --> Nice </h3>
+        <h3>Toulouse --> Nice</h3>
         <p>lorem ipsus</p>
         <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
       </div>
