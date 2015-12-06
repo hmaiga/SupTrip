@@ -3,9 +3,7 @@
 
 <c:import url="/Views/Shared/Header.jsp"/>
 
+<h3>Liste de voyage</h3>
 
-<p>ceci est ma page d'acceuil</p>
-
-<p>à modifier</p>
 
 <c:import url="/Views/Shared/Footer.jsp"/>

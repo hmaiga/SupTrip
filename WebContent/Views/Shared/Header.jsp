@@ -13,11 +13,11 @@
 			<div class="container-fluid">
 				<div class="navbar-brand" href="#">Suptrip</div>
 				<div>
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">Home</a>
-						<li class="active"><a href="#">Liste des voyages</a>
 						<li class="active"><a href="#">S'enrégistrer</a>
-						<li class="active"><a href="#">S'authentifier</a>
+						<li class="active"><a href="#">S'authentifier</a>	
+						<li><a href="#">Panier <span class="badge"> 3</span></a></li>					
 					</ul>
 				</div>
 			</div>
