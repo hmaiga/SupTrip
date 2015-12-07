@@ -77,7 +77,7 @@
   			<tr>
        			<td>Liste de voyage :</td>
        			<td>10</td>
-   			</tr>
+   			</tr>	
    			<tr>
        			<td>Nombre d'utilisateur :</td>
        			<td>8</td>
