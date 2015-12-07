@@ -6,7 +6,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/Views/media/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css/main.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		</head>
 	<body>
@@ -23,9 +23,9 @@
   				
 				<div>
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Home</a>
-						<li class="active"><a href="#">S'enrégistrer</a>
-						<li class="active"><a href="#">S'authentifier</a>	
+						<li class="active"><a href="${pageContext.request.contextPath}/">Home</a>
+						<li class="active"><a href="${pageContext.request.contextPath}/register">S'enrégistrer</a>
+						<li class="active"><a href="${pageContext.request.contextPath}/login">S'authentifier</a>	
 						<li><a href="#">Panier <span class="badge"> 3</span></a></li>					
 					</ul>
 				</div>
@@ -33,3 +33,5 @@
 		</nav>
 		
 		<div class="container">
+		
+		

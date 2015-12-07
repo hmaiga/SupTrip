@@ -1,7 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF8" pageEncoding="UTF8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<c:import url="/Views/Shared/Header.jsp"/>
+<c:import url="/views/shared/header.jsp"/>
+<div class="row">
+	hello you
+</div>
 
 <h3>Liste de voyage</h3>
 
@@ -84,4 +87,4 @@
   </div>
 </div>
 
-<c:import url="/Views/Shared/Footer.jsp"/>
+<c:import url="/views/shared/footer.jsp"/>
