@@ -98,5 +98,4 @@
   </div>
 </div>
 </div>
-
 <c:import url="/views/shared/footer.jsp"/>

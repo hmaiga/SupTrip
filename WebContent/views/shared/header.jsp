@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 	
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -10,11 +9,11 @@
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css/style.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		</head>
+	</head>
 	<body>
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
-				<div class="navbar-brand" href="#">Suptrip</div>
+				<div class="navbar-brand"> <a href="${pageContext.request.contextPath}/">Suptrip</a></div>
 				
 					 <form class="navbar-form navbar-left" role="search">
 					  <div class="form-group">
@@ -37,7 +36,7 @@
 								<li><a href="${pageContext.request.contextPath}/logout">Se deconnecter </a></li>
 							</c:otherwise>
 						</c:choose>
-						<li><a href="#">Panier <span class="badge"> 3</span></a></li>				
+						<li><a href="#">Panier <span class="badge"> 0</span></a></li>				
 					</ul>
 				</div>
 			</div>
