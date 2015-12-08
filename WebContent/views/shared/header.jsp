@@ -1,12 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+	
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css1/style.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css/style.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		</head>
 	<body>
@@ -24,8 +26,17 @@
 				<div>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="${pageContext.request.contextPath}/">Acceuil</a>
-						<li class="active"><a href="${pageContext.request.contextPath}/register">S'enregistrer</a>
-						<li class="active"><a href="${pageContext.request.contextPath}/login">Se connecter</a>	
+						
+						<c:choose>
+							<c:when test="${empty sessionScope.idBoosterSession}">
+								<li class="active"><a href="${pageContext.request.contextPath}/register">S'enregistrer</a>
+								<li class="active"><a href="${pageContext.request.contextPath}/login">Se connecter</a>	
+							</c:when>
+							<c:otherwise>
+								<li class="active"><a href="${pageContext.request.contextPath}/profile">Mon Compte</a>
+								<li><a href="${pageContext.request.contextPath}/logout">Se deconnecter </a></li>
+							</c:otherwise>
+						</c:choose>
 						<li><a href="#">Panier <span class="badge"> 3</span></a></li>				
 					</ul>
 				</div>
