@@ -10,19 +10,19 @@
 			<form method="POST" action="register" accept-charset="UTF-8" role="form" class="form-signin"><input name="_token" value="JMoItGH5dfjYNexaz1qd10QW5Lx1UVeTeGVgVc7o" type="hidden">
 				<fieldset>
 					<input class="form-control" placeholder="173025" name="idbooster" type="text">
-					</br>
+					<br>
 					<input class="form-control middle" placeholder="E-mail" name="email" type="text">
-					</br>
+					<br>
 					<input class="form-control middle" placeholder="First Name" name="firstname" type="text">
-					</br>		
+					<br>		
 			    	<input class="form-control middle" placeholder="Last Name" name="lastname" type="text">
-			    	</br>
+			    	<br>
 			    	<input class="form-control middle" placeholder="Password" name="password" value="" type="password">
-			    	</br>
+			    	<br>
 			    	<input class="form-control bottom" placeholder="Confirm Password" name="password_confirmation" value="" type="password">
-			    	</br>
+			    	<br>
 			    	<input class="form-control middle" placeholder="Campus Name" name="campusname" type="text">
-			    	</br>
+			    	<br>
 			    	
 				    <input class="btn btn-primary btn-block" value="S'enregistrer" type="submit">
 				  	<br>

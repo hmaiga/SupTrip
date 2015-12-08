@@ -9,9 +9,9 @@
 			<form method="POST" action="login" accept-charset="UTF-8" role="form" class="form-signin">
 				<fieldset>
 					<input class="form-control" placeholder="173025" name="idBooster" type="text">
-					</br>		
+					<br>		
 			    	<input class="form-control middle" placeholder="Password" name="password" value="" type="password">
-			    	</br>
+			    	<br>
 				    <input class="btn btn-lg btn-primary btn-block" value="Valider" type="submit">
 				  	<br>
 				  	<p class="text-center"><a href="#">Mot de passe oublié ?</a></p>
