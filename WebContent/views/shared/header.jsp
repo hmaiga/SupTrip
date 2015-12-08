@@ -6,7 +6,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/views/css1/style.css" />
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		</head>
 	<body>
@@ -14,7 +14,7 @@
 			<div class="container-fluid">
 				<div class="navbar-brand" href="#">Suptrip</div>
 				
-					<form class="navbar-form navbar-left" role="search">
+					 <form class="navbar-form navbar-left" role="search">
 					  <div class="form-group">
 					    <input type="text" class="form-control" placeholder="Recherchez un voyage">
 					  </div>
@@ -23,15 +23,17 @@
   				
 				<div>
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="${pageContext.request.contextPath}/">Home</a>
-						<li class="active"><a href="${pageContext.request.contextPath}/register">S'enrégistrer</a>
-						<li class="active"><a href="${pageContext.request.contextPath}/login">S'authentifier</a>	
-						<li><a href="#">Panier <span class="badge"> 3</span></a></li>					
+						<li class="active"><a href="${pageContext.request.contextPath}/">Acceuil</a>
+						<li class="active"><a href="${pageContext.request.contextPath}/register">S'enregistrer</a>
+						<li class="active"><a href="${pageContext.request.contextPath}/login">Se connecter</a>	
+						<li><a href="#">Panier <span class="badge"> 3</span></a></li>				
 					</ul>
 				</div>
 			</div>
 		</nav>
 		
-		<div class="container">
+		
+        
+        
 		
 		

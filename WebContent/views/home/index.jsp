@@ -2,11 +2,22 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <c:import url="/views/shared/header.jsp"/>
-<div class="row">
-	hello you
+<div class="container">
+	<div class="row">
+		<header class="jumbotron hero-spacer">
+            <h2>Description</h2>
+            <p>SUPINFO Institute Of Information Technology est aujourd'hui une école d'informatique 
+            mondiale qui dispose de son propre réseau international dédié aux technologies de l'information. 
+            Le programme SUPINFO étant le même sur tous ces sites en France et dans le monde (avec quelques aménagements en Chine), il est possible de suivre chaque année d'étude sur un site différent tout en poursuivant le même cursus. 
+            La mobilité en cours d'année est aussi possible et les étudiants peuvent partir quelques semaines ou mois sur un site à l'étranger pour y suivre les mêmes cours (à la langue près) et passer leurs examens. Pour tous les étudiants, l'Anglais est obligatoire. 
+            </p>
+        </header>
+    </div>
 </div>
 
-<h3>Liste de voyage</h3>
+<div class="container">
+
+<h2>Liste des voyages</h2>
 
 <div class="row">
   <div class="col-sm-9">
@@ -77,7 +88,7 @@
   			<tr>
        			<td>Liste de voyage :</td>
        			<td>10</td>
-   			</tr>	
+   			</tr>
    			<tr>
        			<td>Nombre d'utilisateur :</td>
        			<td>8</td>
@@ -85,6 +96,7 @@
   		</table>
 	</div>
   </div>
+</div>
 </div>
 
 <c:import url="/views/shared/footer.jsp"/>
