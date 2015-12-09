@@ -20,7 +20,7 @@ public class RegisterServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/views/page/register.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/views/register.jsp");
 		rd.forward(request, response);
 	}
 

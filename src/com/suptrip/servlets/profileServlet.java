@@ -31,7 +31,7 @@ public class profileServlet extends HttpServlet {
 		String idBooster = (String) request.getSession().getAttribute("idBoosterSession");
 		request.setAttribute("booster", idBooster);
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/views/page/profile.jsp");	
+		RequestDispatcher rd = request.getRequestDispatcher("/views/profile.jsp");	
 		rd.forward(request, response);
 	}
 
